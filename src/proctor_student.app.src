@@ -1,0 +1,22 @@
+{application, proctor_student,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {proctor_student_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    cowboy,
+    nprocreg
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {included_applications, [
+    nitrogen_core,
+    simple_bridge
+  ]},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.

@@ -1,0 +1,5 @@
+-sname hot_diggity
+-start_epmd true
+
++K true
++A30
